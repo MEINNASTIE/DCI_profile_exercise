@@ -1,0 +1,71 @@
+/* BASE */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #42344b;
+    color: whitesmoke;
+}
+
+
+
+h1,
+h2,
+h3 {
+    font-family: 'Press Start 2P', cursive;
+    color: #64945c; 
+    text-align: center;  
+}
+
+h2,
+h3 {
+    text-align: left;
+}
+
+footer {
+    text-align: center;
+}
+
+/* BORDER PART */
+
+.container {
+    border-top-left-radius: 27px 140px;
+    border-top-right-radius: 23px 130px;
+    border-bottom-left-radius: 200px 19px;
+    border-bottom-right-radius: 120px 24px;
+    display: block;
+    position: relative;
+    border: solid 3px #6e7491;
+    padding: 40px 60px;
+    max-width: 800px;
+    width: 70%;
+    margin: 100px auto 0;
+    font-size: 1.2em;
+    line-height: 2em;
+    transform: rotate(-2deg);
+    box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+    transition: all 0.13s ease-in;
+    margin-bottom: 80px;
+  }
+
+/* JUST SOME COOL SIMPLE ANIMATION */
+
+.typing-demo {
+    width: 11ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
